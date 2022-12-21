@@ -10,7 +10,8 @@
   margin-top: 10px;
 }
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -123,6 +124,7 @@ nav {
 .pesquisarProduto {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .pesquisarProduto input {
   width: 27vh;
@@ -146,14 +148,14 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
-  width: 37vh;
+  width: 100%;
   background-color: #f5f5f5;
 }
 .tituloCarrinho {
   text-align: center;
   background-color: #37268c;
   color: #fff;
-  width: 37vh;
+  width: 100%;
   height: 5vh;
   display: flex;
   align-items: center;
